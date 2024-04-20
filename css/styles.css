@@ -119,7 +119,7 @@ button {
   color: #404bbf;
 }
 
-.navitem:first-child {
+.head-links .studio {
   position: relative;
   color: #404bbf;
 }
