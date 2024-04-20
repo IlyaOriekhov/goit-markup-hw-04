@@ -185,7 +185,7 @@ button {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -197,6 +197,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .main-head {
   font-size: 56px;
   line-height: 1.07;
@@ -207,6 +208,7 @@ button {
   justify-content: flex-start;
   margin: auto;
 }
+
 .btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -221,11 +223,14 @@ button {
   border: none;
   border-radius: 4px;
   margin: 48px auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .btn:hover,
 .btn:focus {
   background-color: #404bbf;
 }
+
 button {
   background: #4d5ae5;
 }
@@ -275,13 +280,15 @@ button {
   width: calc((100% - 72px) / 4);
 }
 
-.benefit-icon {
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
+.benefits-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
-  padding: 24px 100px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 
 .para-scnd {
