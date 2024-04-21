@@ -127,7 +127,7 @@ button {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navi-first::after {
+.head-links .studio::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -428,6 +428,7 @@ h2 {
 .list-frth {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
 }
 
 .list-frth:hover p {
