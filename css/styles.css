@@ -44,7 +44,8 @@ button {
 .container {
   max-width: 1158px;
   padding: 0 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*HEAD+NAVI*/
@@ -114,6 +115,8 @@ button {
 .navi-first {
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
+  position: relative;
 }
 
 .navi-first:hover,
@@ -177,6 +180,7 @@ button {
 
 .section-one {
   max-width: 1440px;
+  height: 600px;
   font-weight: 700;
   text-align: center;
   color: #fff;
