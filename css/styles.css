@@ -321,6 +321,7 @@ h2 {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-top: 8px;
 }
 
 .all-social-links {
